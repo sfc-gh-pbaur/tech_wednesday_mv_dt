@@ -1,3 +1,4 @@
+USE DATABASE dt_mv_demo_db;
 -- Drop the Dynamic Table
 DROP DYNAMIC TABLE IF EXISTS DT_PRODUCT_SALES_SUMMARY;
 
