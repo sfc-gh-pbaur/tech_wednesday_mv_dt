@@ -1,3 +1,6 @@
+USE DATABASE dt_mv_demo_db;
+USE SCHEMA demo_schema;
+
 -- Create a Dynamic Table to summarize sales by product, targeting a 1-minute lag
 -- Note: 'WAREHOUSE' is required for DTs to define compute resources for refresh.
 -- Replace 'YOUR_WAREHOUSE_NAME' with an actual warehouse you have access to.

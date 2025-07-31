@@ -1,0 +1,14 @@
+-- Drop the Dynamic Table
+DROP DYNAMIC TABLE IF EXISTS DT_PRODUCT_SALES_SUMMARY;
+
+-- Drop the Materialized View
+DROP MATERIALIZED VIEW IF EXISTS MV_PRODUCT_SALES_SUMMARY;
+
+-- Drop the base table
+DROP TABLE IF EXISTS RAW_SALES;
+
+-- Drop the schema
+DROP SCHEMA IF EXISTS DEMO_SCHEMA;
+
+-- Drop the database (optional)
+DROP DATABASE IF EXISTS DT_MV_DEMO_DB;
